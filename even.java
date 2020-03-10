@@ -7,13 +7,13 @@ class addEven {
 		System.out.print("Enter the number : ");
 		int number=input.nextInt();
 		int sum=0;
-		int temp;
+		int digit;
 		while(number>0)
 		{
-			temp=number%10;
-			if(temp%2==0)
+			digit=number%10;
+			if(digit%2==0)
 			{
-				sum=sum+temp;
+				sum=sum+digit;
 			}
 			number=number/10;
 		}
