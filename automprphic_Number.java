@@ -2,7 +2,7 @@ package newteAM;
 import java.util.Scanner;
 class Automarphic_Number {
 	public static void main(String args[]) {
-		System.out.print("Enter any number :");
+		System.out.print("Enter number :");
 		Scanner sn=new Scanner(System.in);
 		int number=sn.nextInt();
 		int temp=10;
