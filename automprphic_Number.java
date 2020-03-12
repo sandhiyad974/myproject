@@ -1,6 +1,6 @@
 package newteAM;
 import java.util.Scanner;
-class Automorphic_Number {
+class Automarphic_Number {
 	public static void main(String args[]) {
 		System.out.print("Enter any number :");
 		Scanner sn=new Scanner(System.in);
