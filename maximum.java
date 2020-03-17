@@ -12,8 +12,8 @@ class GetMaximum {
 	            }
 	            else {
 	            	int val = num%10;
-	        		arr[val]++;
-	        	    num /= 10;
+	        	arr[val]++;
+	        	num /= 10;
 	            }
 	        }
 	        for(int i=9; i>=0; i--){
