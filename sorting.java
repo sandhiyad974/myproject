@@ -15,19 +15,19 @@ class Sorting {
 		for(i=0; i<noOfEle; i++)  
 		{  
 			for(j=i+1; j<noOfEle; j++)  
-		    {  
+		    	{  
 				if(arr[i] > arr[j])  
-		        {  
+		        	{  
 					temp = arr[i];  
-		            arr[i] = arr[j];  
-		            arr[j] = temp;  
-		        }  
-		    }  
+		            		arr[i] = arr[j];  
+		           		arr[j] = temp;  
+		        	}  
+		   	 }  
 		}  
 		
-			for(i=0; i<noOfEle; i++)  
-		    {  
-				System.out.print(arr[i]+ "  ");  
-		    }  
+		for(i=0; i<noOfEle; i++)  
+		{  
+			System.out.print(arr[i]+ "  ");  
+		}  
 	}  
 }  
