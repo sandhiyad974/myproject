@@ -5,26 +5,26 @@ public class SnakesAndLadders{
 	public static void main (String [] args) throws IOException{        
         BufferedReader input1 = new BufferedReader (new InputStreamReader (System.in));
         int count= 100;
-        int iteration=-1;         
+        int minus=-1;         
         while (count > 0){
             if (count%10 == 0 && count != 100){
-                if(iteration==-1)
+                if(minus==-1)
                 {
                     count-=9;
-                    iteration=1;
+                    minus=1;
                 }
                 else
                 {
                     System.out.print(count+"\t");
                     count-=10;
-                    iteration=-1;
+                    minus=-1;
                 }
                 if(count!=0)
                 System.out.print("\n" + count + "\t"); 
             }
             else
             System.out.print(count + "\t"); 
-            count+=iteration;
+            count+=minus;
         }
         System.out.println();       
         String startgame = "y";       
